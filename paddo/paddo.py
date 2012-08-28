@@ -6,11 +6,14 @@
 #   Created: 01/27/2011
 #
 #   Purpose: 
-#   Audit and attack the underlying cryptography in encrypted blocks to
-#   decrypt them or re-encrypt any plaintext without knowing the key. An
-#   "oracle" is when a service receives a ciphertext, decrypts it and then
-#   replies to  the sender whether the padding is correct or not. This
-#   allows the attack.
+#   Audit and attack the underlying cryptography in encrypted blocks for 
+#   decrypting them or re-encrypting any plaintext without knowing the 
+#   secret key. An "oracle" is when a service or machine receives a ciphertext, 
+#   decrypts it and then replies to the sender whether the padding is correct 
+#   or not. At Eurocrypt 2002, Vaudenay introduced a powerful side-channel attack 
+#   against CBC-mode encryption with PKCS#5. This framework currently attacks 
+#   Java Server Faces vulnerable versions and allows to extend current methods 
+#   for beeing used in customized web applications.
 #
 #   Copyright (c) 2012 by Lucas Apa, IOActive, Inc.
 #
