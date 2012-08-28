@@ -1,0 +1,3 @@
+BASE64 = 0 
+ASCII = 1
+HEXASCII = 2
