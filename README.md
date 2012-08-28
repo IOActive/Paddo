@@ -9,7 +9,7 @@ allows the attack.
 
 For example:
 
-http://<EXAMPLE_WEBSITE>/bzJApp/Captcha.action?securityWord=OdXdV/96yBv1hA2cfGnmFFsPhYFi2xCO
+http://[EXAMPLE_WEBSITE]/bzJApp/Captcha.action?securityWord=OdXdV/96yBv1hA2cfGnmFFsPhYFi2xCO
 
 Here the ciphertext is: OdXdV/96yBv1hA2cfGnmFFsPhYFi2xCO (Which inside
 has the real value of the captcha)
@@ -25,7 +25,7 @@ Also paddo supports re-encryption, that is encrypting a custom plaintext
 with the server key without knowing it. For example encrypting a "LUCAS"
 with paddo:
 
-http://<EXAMPLE_WEBSITE>/bzJApp/Captcha.action?securityWord=XYnwj4M6c4UrXIdL0clBkQAAAAAAAAAA
+http://[EXAMPLE_WEBSITE]/bzJApp/Captcha.action?securityWord=XYnwj4M6c4UrXIdL0clBkQAAAAAAAAAA
 
 
 This is the core of
