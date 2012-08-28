@@ -1,7 +1,14 @@
 #
 #   Paddo 
+#
 #   Created: 01/27/2011
-#   Purpose: framework for auditing and exploiting Padding Oracles vulnerabilities.
+#
+#   Purpose: 
+#   Audit and attack the underlying cryptography in encrypted blocks to
+#   decrypt them or re-encrypt any plaintext without knowing the key. An
+#   "oracle" is when a service receives a ciphertext, decrypts it and then
+#   replies to  the sender whether the padding is correct or not. This
+#   allows the attack.
 #
 #   Copyright (c) 2012 by Lucas Apa, IOActive, Inc.
 #
