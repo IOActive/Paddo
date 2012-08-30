@@ -3,7 +3,7 @@
 #
 #   Created: 01/27/2011
 #
-#   Purpose: framework for auditing and conducting padding oracle attacks 
+#   Purpose: framework for auditing and conducting "padding oracle" attacks 
 #
 #   Copyright (c) 2012 by Lucas Apa, IOActive, Inc.
 #
