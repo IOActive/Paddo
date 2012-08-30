@@ -1,6 +1,6 @@
 Paddo
 =====
-Audit and attack the underlying cryptography in CBC encrypted blocks for decrypting them or re-encrypting any plaintext without knowing the secret key. An "oracle" is when a service or machine receives a ciphertext, decrypts it and then replies to the sender whether the padding is correct or not. At Eurocrypt 2002, Vaudenay introduced a powerful side-channel attack against CBC-mode encryption with PKCS#5. This framework currently attacks Java Server Faces vulnerable versions and allows to extend current methods for beeing used in customized web applications.
+Audit and attack the underlying cryptography in CBC mode for decrypting or re-encrypting any plaintext without knowing the secret key. An "oracle" is when a service or machine receives a ciphertext, decrypts it and then replies to the sender whether the padding is correct or not. At Eurocrypt 2002, Vaudenay introduced a powerful side-channel attack against CBC-mode encryption with PKCS#5. This framework currently attacks Java Server Faces vulnerable versions and allows to extend current methods for beeing used in customized web applications.
 
 For example:
 
@@ -51,3 +51,6 @@ If the Cookie image is feed by the securityWord parameter, we will see the word 
 This is the core of http://technet.microsoft.com/en-us/security/bulletin/MS10-070.
 
 Briefly, you can encrypt a "web.config" string with the server secret key, and then feed the WebResource.axd script for fetching the content of that file. Currently paddo only attacks Java Server Faces, but it may be extended to also support ASP.NET since the attack is very similar.
+
+1. http://reference.kfupm.edu.sa/content/s/e/security_flaws_induced_by_cbc_padding____89549.pdf
+2. http://netifera.com/research/poet/PaddingOracleBHEU10.pdf
